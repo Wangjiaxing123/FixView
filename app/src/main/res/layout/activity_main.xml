@@ -10,7 +10,6 @@
       android:id="@+id/fixEt"
       app:fix_text="密码"
       app:hint_text="请输入密码"
-      app:preOrPost="PREFIX"
+      app:preOrPost="POSTFIX"
       android:layout_height="50dp"/>
-
 </LinearLayout>
