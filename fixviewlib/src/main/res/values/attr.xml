@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
  <declare-styleable name="FixEditText">
-     <attr name="content_text" format="string"/>
-     <attr name="fix_text" format="string"/>
-     <attr name="hint_text" format="string"/>
-     <attr name="content_text_color" format="color"/>
-     <attr name="fix_text_color" format="color"/>
-     <attr name="preOrPost" >
-         <enum name="PREFIX" value="1"/>
-         <enum name="POSTFIX" value="2"/>
-     </attr>
+     <attr name="content_text" />
+     <attr name="fix_text" />
+     <attr name="hint_text" />
+     <attr name="content_text_color" />
+     <attr name="fix_text_color" />
+     <attr name="preOrPost" />
  </declare-styleable>
+
+    <declare-styleable name="FixTextView">
+        <attr name="content_text" />
+        <attr name="fix_text" />
+        <attr name="content_text_color" />
+        <attr name="fix_text_color" />
+        <attr name="preOrPost" />
+    </declare-styleable>
+
+    <attr name="content_text" format="string"/>
+    <attr name="fix_text" format="string"/>
+    <attr name="hint_text" format="string"/>
+    <attr name="content_text_color" format="color"/>
+    <attr name="fix_text_color" format="color"/>
+    <attr name="preOrPost" >
+        <enum name="PREFIX" value="1"/>
+        <enum name="POSTFIX" value="2"/>
+    </attr>
+
+
 </resources>
