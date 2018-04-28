@@ -15,6 +15,7 @@
         <attr name="content_text_color" />
         <attr name="fix_text_color" />
         <attr name="preOrPost" />
+        <attr name="right_content_gravity"/>
     </declare-styleable>
 
     <attr name="content_text" format="string"/>
@@ -22,6 +23,11 @@
     <attr name="hint_text" format="string"/>
     <attr name="content_text_color" format="color"/>
     <attr name="fix_text_color" format="color"/>
+    <attr name="right_content_gravity" >
+        <enum name="LEFT" value="3"/>
+        <enum name="RIGHT" value="5"/>
+        <enum name="CENTER" value="17"/>
+    </attr>
     <attr name="preOrPost" >
         <enum name="PREFIX" value="1"/>
         <enum name="POSTFIX" value="2"/>

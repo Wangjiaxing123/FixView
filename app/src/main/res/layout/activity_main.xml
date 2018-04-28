@@ -16,6 +16,7 @@
   <com.newtrekwang.fixviewlib.text.FixTextView
       android:layout_width="match_parent"
       app:fix_text="时间"
+      app:right_content_gravity="CENTER"
       app:content_text="请输入时间"
       android:layout_height="50dp"></com.newtrekwang.fixviewlib.text.FixTextView>
 </LinearLayout>
